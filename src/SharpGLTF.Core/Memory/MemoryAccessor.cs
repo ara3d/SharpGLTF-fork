@@ -405,7 +405,7 @@ namespace SharpGLTF.Memory
         private MemoryAccessInfo _Slicer;
 
         [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
-        private BYTES _Data;
+        public BYTES _Data;
 
         #endregion
 

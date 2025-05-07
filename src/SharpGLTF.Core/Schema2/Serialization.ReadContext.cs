@@ -55,7 +55,7 @@ namespace SharpGLTF.Schema2
             return new ReadContext(_loadFile, _uriSolver);
         }
 
-        public static ReadContext CreateFromDictionary(IReadOnlyDictionary<string, BYTES> dictionary, bool checkExtensions = true)
+        public static ReadContext CreateFromDictionary(IReadOnlyDictionary<string, BYTES> dictionary, bool checkExtensions = false)
         {
             return new ReadContext(rawUri => dictionary[rawUri], null, checkExtensions);
         }
@@ -306,12 +306,14 @@ namespace SharpGLTF.Schema2
 
             // schema validation
 
+            /*
             if (this._CheckSupportedExtensions)
             {
                 root._ValidateExtensions(vcontext.GetContext());
                 var ex = vcontext.Errors.FirstOrDefault();
                 if (ex != null) return (null, vcontext);
             }
+            */
 
             // we must do a basic validation before resolving external dependencies
 

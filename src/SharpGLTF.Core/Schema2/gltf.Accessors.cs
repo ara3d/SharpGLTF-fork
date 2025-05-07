@@ -130,7 +130,7 @@ namespace SharpGLTF.Schema2
             return _CachedType.Value;
         }
 
-        internal MemoryAccessor _GetMemoryAccessor(string name = null)
+        public MemoryAccessor _GetMemoryAccessor(string name = null)
         {
             var view = SourceBufferView;
             var info = new MemoryAccessInfo(name, ByteOffset, Count, view.ByteStride, Format);
