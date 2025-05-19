@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Linq;
 using System.Numerics;
 
 using SharpGLTF.Collections;
 using SharpGLTF.Transforms;
-using SharpGLTF.Animations;
 using SharpGLTF.Validation;
 
 using WEIGHTS = System.Collections.Generic.IReadOnlyList<float>;
-using System.Xml.Linq;
 
 namespace SharpGLTF.Schema2
 {

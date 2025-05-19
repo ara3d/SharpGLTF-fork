@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Numerics;
-using System.Linq;
-
 using SharpGLTF.Collections;
 
 namespace SharpGLTF.Schema2

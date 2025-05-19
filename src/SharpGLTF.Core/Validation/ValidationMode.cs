@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SharpGLTF.Validation
+﻿namespace SharpGLTF.Validation
 {
     /// <summary>
     /// Defines validation modes for reading files.

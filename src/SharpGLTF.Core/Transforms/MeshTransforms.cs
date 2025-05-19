@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Numerics;
-using System.Text;
-
 using TRANSFORM = System.Numerics.Matrix4x4;
 using V2 = System.Numerics.Vector2;
 using V3 = System.Numerics.Vector3;

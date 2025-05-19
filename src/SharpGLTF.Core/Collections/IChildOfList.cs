@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SharpGLTF.Collections
+﻿namespace SharpGLTF.Collections
 {
     /// <summary>
     /// Implemented by children of <see cref="ChildrenList{T, TParent}"/>

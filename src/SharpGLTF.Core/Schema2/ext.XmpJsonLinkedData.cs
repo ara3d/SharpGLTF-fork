@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using System.Text;
-
-using SharpGLTF.Collections;
-
 using XMPJSONLD = System.Text.Json.Nodes.JsonNode;
 
 namespace SharpGLTF.Schema2

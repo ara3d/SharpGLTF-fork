@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿using System.Collections.Generic;
 using FIELDINFO = SharpGLTF.Reflection.FieldInfo;
 
 namespace SharpGLTF.Reflection

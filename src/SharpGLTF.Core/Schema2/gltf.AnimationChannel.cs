@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
 using System.Numerics;
 
 using SharpGLTF.Collections;
 using SharpGLTF.Transforms;
 using SharpGLTF.Validation;
-using System.Xml.Linq;
-using System.IO;
-using System.Reflection;
 
 namespace SharpGLTF.Schema2
 {

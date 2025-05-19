@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-
 using DIMENSIONS = SharpGLTF.Schema2.DimensionType;
 using ENCODING = SharpGLTF.Schema2.EncodingType;
 

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
-
 using TARGET = SharpGLTF.IO.JsonSerializable;
 
 namespace SharpGLTF.Validation
